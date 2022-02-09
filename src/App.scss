@@ -108,7 +108,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #ce7979;
 	overflow: hidden;
 }
 
@@ -182,14 +182,25 @@ header h1 {
 	padding: 15px 15px 30px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	// -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	// -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	// box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	border: solid 1px black;
+	box-shadow: 0 0 8px #1c6163;
+}
+
+#polaroidPin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	margin-top: -15px;
+	margin-bottom: 5px;
 }
 
 .link-href {
@@ -425,4 +436,19 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.main-content-about-me {
+    border: 1px solid black;
+    width: fit-content;
+    /* block-size: fit-conten; */
+    // margin-left: 25%;
+    // margin-right: 25%;
+    padding: 20px;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+    box-shadow: 0 0 8px #1c6163;
+    border-radius: 10px;
+    background-color: #f0efda;
+	font-size: 14px;
 }

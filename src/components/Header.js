@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import moment from "moment";
 
 class Header extends Component {
   titles = [];
@@ -27,7 +28,10 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      var today = moment().format('MMMM Do YYYY')
+      var greetingsArray = ["welcome friend!",`today is ${today}`];
+      this.titles = greetingsArray.map(x => [ x.toLowerCase(), 1500 ] ).flat();
+      // this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
@@ -58,7 +62,7 @@ class Header extends Component {
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="mi:moon"
                     data-inline="false"
                     style={{
                       display: "block",
@@ -73,7 +77,7 @@ class Header extends Component {
                 checkedIcon={
                   <span
                     className="iconify"
-                    data-icon="noto-v1:sun-with-face"
+                    data-icon="emojione-v1:sun-with-face"
                     data-inline="false"
                     style={{
                       display: "block",

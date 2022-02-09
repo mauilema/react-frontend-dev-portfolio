@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import javaScriptIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import cssIcon from "@iconify/icons-logos/css-3";
+import htmlIcon from "@iconify/icons-logos/html-5";
+
+
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var polaroidPin = "images/" + this.props.sharedBasicInfo.polaroidPin;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -21,53 +25,13 @@ class About extends Component {
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
+          <br />
+          <br />
           <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
 
-            <div className="col-md-8 center">
-              <div className="col-md-10">
+            <div className="col-md-10 center">
+              <div className="col-md-10 main-content-about-me ">
                 <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
@@ -77,7 +41,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}!</span>
                     <br />
                     <br />
                     {about}
@@ -85,6 +49,45 @@ class About extends Component {
                 </div>
               </div>
             </div>
+
+            <div className="col-md-2 mb-5 center">
+              <div className="polaroid">
+                <span style={{ cursor: "auto" }}>
+                  <div id="polaroidPin">
+                    <img
+                      height="50px"
+                      width="50px"
+                      src={polaroidPin}
+                      alt="Avatar placeholder"
+                    />
+                  </div>
+                  <img
+                    height="200px"
+                    width="200px"
+                    src={profilepic}
+                    alt="Avatar placeholder"
+                  />
+                  <Icon
+                    icon={javaScriptIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={reactIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={cssIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={htmlIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
