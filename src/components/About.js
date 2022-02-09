@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import javaScriptIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
-import cssIcon from "@iconify/icons-logos/css-3";
+import youTubeIcon from "@iconify/icons-logos/youtube";
 import htmlIcon from "@iconify/icons-logos/html-5";
 
 
@@ -76,7 +76,7 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={cssIcon}
+                    icon={youTubeIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
