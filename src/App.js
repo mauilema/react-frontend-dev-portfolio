@@ -95,7 +95,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="emojione-v1:flag-for-united-kingdom"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="emojione-v1:flag-for-spain"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
