@@ -4,9 +4,9 @@
       "description": "Mi nombre es José Lema. Soy un ingeniero de software full-stack. Soy de ascendencia latinoamericana. Mi lenguaje de codificación favorito es Javascript porque da vida a las páginas de HTML. Disfruto viendo videos en Youtube, desde tutoriales hasta podcasts y transmisiones en vivo, ¡hay tanto contenido valioso para ver! Tengo buena memoria para temas importantes y apoyo la creatividad en el lugar de trabajo.",
       "section_name": {
         "about": "O mnie",
-        "projects": "Proyectos",
+        "projects": "TBA",
         "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "experience": "Proyectos"
       }
     },
     "projects": [
@@ -81,35 +81,34 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Software Engineer",
+        "title": "City-Diary",
+        "years": "01.10.2022 - 01.31.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "React Native"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "React Native",
+          "Expo",
+          "Firebase Store DataBase",
+          "Firebase Cloud Storage"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Software Engineer",
+        "title": "Fullstack Spirits",
+        "years": "12.06.2021 - 12.17.2021",
         "mainTech": [
-          "Angular 7/8"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "React",
+          "Redux",
+          "Heroku",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "Express",
+          "Sequelize"
         ]
       }
     ]
