@@ -3,7 +3,7 @@
       "description_header": "Hola",
       "description": "Mi nombre es José Lema. Soy un ingeniero de software full-stack. Soy de ascendencia latinoamericana. Mi lenguaje de codificación favorito es Javascript porque da vida a las páginas de HTML. Disfruto viendo videos en Youtube, desde tutoriales hasta podcasts y transmisiones en vivo, ¡hay tanto contenido valioso para ver! Tengo buena memoria para temas importantes y apoyo la creatividad en el lugar de trabajo.",
       "section_name": {
-        "about": "O mnie",
+        "about": "Acerca de mi",
         "projects": "TBA",
         "skills": "Umiejętności",
         "experience": "Proyectos"
@@ -81,7 +81,7 @@
     ],
     "experience": [
       {
-        "company": "Software Engineer",
+        "company": "Ingeniero de Software",
         "title": "City-Diary",
         "years": "01.10.2022 - 01.31.2022",
         "mainTech": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "company": "Software Engineer",
+        "company": "Ingeniero de Software",
         "title": "Fullstack Spirits",
         "years": "12.06.2021 - 12.17.2021",
         "mainTech": [
