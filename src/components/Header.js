@@ -30,7 +30,7 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       // var today = moment().format('MMMM Do YYYY');
       var today = moment().format('MM-DD-YYYY');
-      var greetingsArray = [`welcome friend!`,`today's date is ${today}`, `hola amigo!`, `la fecha de hoy es ${today}`];
+      var greetingsArray = [`welcome friend!`,`today's date is ${today}`, `¡hola amigo!`, `la fecha de hoy es ${today}`];
       this.titles = greetingsArray.map(x => [ x.toLowerCase(), 1500 ] ).flat();
       // this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
