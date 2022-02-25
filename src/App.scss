@@ -24,15 +24,16 @@ html {
 	font-size: 250%;
 }
 
-.header-icon {
-	height: 150px;
-	width: 150px;
-}
+// .header-icon {
+// 	height: 150px;
+// 	width: 150px;
+// }
 
 header {
+	border: 2px dashed blueviolet;
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 500px;
+	min-height: 100px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -43,7 +44,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	// padding-top: 150px;
 	padding-bottom: 0;
 }
 
