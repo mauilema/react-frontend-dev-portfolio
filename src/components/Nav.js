@@ -1,0 +1,82 @@
+import React, { Component } from "react";
+import "bulma/css/bulma.min.css";
+
+class Nav extends Component {
+  render() {
+    return (
+      <div>
+        <nav class="navbar is-black is-spaced" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            {/* <a class="navbar-item" href="https://bulma.io">
+              <img src="../../public/images/Jose-Lema.png" width="75" alt="Jose Lema initials logo" />
+            </a> */}
+        
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+
+          </div>
+  
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item">
+                Home
+              </a>
+        
+              <a class="navbar-item">
+                About Me
+              </a>
+
+              <a class="navbar-item">
+                My Portfolio
+              </a>
+        
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Let's Connect
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" href="mailto:srjorgemaciel2002@gmail.com" target="_blank">
+                    Email
+                  </a>
+                  <a class="navbar-item" href="https://www.linkedin.com/in/josemlema/" target="_blank">
+                    LinkedIn
+                  </a>
+                  <a class="navbar-item" href="https://github.com/mauilema" target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+
+            </div>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+
+                  {/* <a class="button is-dark">
+                    Contact Me
+                  </a> */}
+
+                  <a class="button is-light" href="https://www.linkedin.com/in/josemlema/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+
+                  <a class="button is-light" href="https://github.com/mauilema" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>  
+
+      </div>
+    );
+  }
+}
+
+export default Nav;

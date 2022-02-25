@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
+import Nav from "./components/Nav"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -82,6 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Nav />
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
