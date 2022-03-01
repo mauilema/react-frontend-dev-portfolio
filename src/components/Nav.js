@@ -2,6 +2,17 @@ import React, { Component } from "react";
 import "bulma/css/bulma.min.css";
 
 class Nav extends Component {
+
+  handleBurgerMenuClick = () => {
+    let burger = document.querySelector('.burger')
+    let nav = document.querySelector('#'+burger.dataset.target)
+
+    burger.addEventListener('click', function () {
+      burger.classList.toggle('is-active')
+      nav.classList.toggle('is-active')
+    })
+  }
+
   render() {
     return (
       <div>
@@ -11,12 +22,11 @@ class Nav extends Component {
               <img src="../../public/images/Jose-Lema.png" width="75" alt="Jose Lema initials logo" />
             </a> */}
         
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" >
+            <a onClick={() => this.handleBurgerMenuClick()} role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" >
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </a>
-
           </div>
   
           <div id="navbarBasicExample" class="navbar-menu">
@@ -56,11 +66,6 @@ class Nav extends Component {
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">
-
-                  {/* <a class="button is-dark">
-                    Contact Me
-                  </a> */}
-
                   <a class="button is-light" href="https://www.linkedin.com/in/josemlema/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                   </a>
