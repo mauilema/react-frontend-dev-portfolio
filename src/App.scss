@@ -77,11 +77,14 @@ header {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	// background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(black, 0.35);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
+	box-shadow: 0 0 8px #1c6163;
+    border-radius: 10px;
 }
 
 .language {
@@ -400,12 +403,14 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	// background: #1F1F1F;
+	background-color: #ce7979;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
 }
+
 
 .section-title {
 	padding-top: 5%;
@@ -425,7 +430,8 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	// background: #1F1F1F;
+	background: black;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -464,3 +470,4 @@ footer a:focus {
     background-color: #f0efda;
 	font-size: 14px;
 }
+
