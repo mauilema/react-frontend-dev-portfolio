@@ -29,7 +29,7 @@ class Nav extends Component {
             </a>
           </div>
   
-          <div id="navbarBasicExample" class="navbar-menu is-size-3">
+          <div id="navbarBasicExample" class="navbar-menu is-size-3 is-family-sans-serif">
             <div class="navbar-start">
               <a class="navbar-item">
                 Home
