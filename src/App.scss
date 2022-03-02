@@ -78,7 +78,7 @@ header {
 
 .skills-tile {
 	// background-color: transparentize(#F8F5F4, 0.95);
-	background-color: transparentize(black, 0.35);
+	background-color: transparentize(#ce7979, 0.17);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -403,8 +403,8 @@ header h1 {
 }
 
 #skills {
-	// background: #1F1F1F;
-	background-color: #ce7979;
+	background: #1F1F1F;
+	// background-color: #ce7979;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -430,8 +430,8 @@ header h1 {
 }
 
 footer {
-	// background: #1F1F1F;
-	background: black;
+	background: #1F1F1F;
+	// background: black;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
