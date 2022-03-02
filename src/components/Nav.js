@@ -39,8 +39,12 @@ class Nav extends Component {
                 About Me
               </a>
 
-              <a class="navbar-item">
-                My Portfolio
+              <a href="#resume" class="navbar-item">
+                Projects
+              </a>
+
+              <a href="#skills" class="navbar-item">
+                Skills
               </a>
         
               <div class="navbar-item has-dropdown is-hoverable">
