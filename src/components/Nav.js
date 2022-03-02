@@ -52,7 +52,7 @@ class Nav extends Component {
                   Let's Connect
                 </a>
         
-                <div class="navbar-dropdown">
+                <div class="navbar-dropdown is-size-4">
                   <a class="navbar-item" href="mailto:srjorgemaciel2002@gmail.com" target="_blank">
                     Email
                   </a>
