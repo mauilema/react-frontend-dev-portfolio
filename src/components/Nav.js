@@ -29,8 +29,8 @@ class Nav extends Component {
             </a>
           </div>
   
-          <div id="navbarBasicExample" class="navbar-menu is-size-3 is-family-sans-serif" id="nav-home">
-            <div class="navbar-start">
+          <div id="navbarBasicExample" class="navbar-menu is-size-3 is-family-sans-serif">
+            <div id="nav-home" class="navbar-start">
               <a href="#nav-home" class="navbar-item">
                 Home
               </a>
