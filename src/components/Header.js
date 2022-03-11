@@ -23,7 +23,7 @@ class Header extends Component {
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-12 div-wrapper">
+          <div className="col-md-12">
             <div>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
