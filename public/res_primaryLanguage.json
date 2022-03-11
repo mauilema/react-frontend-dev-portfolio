@@ -11,38 +11,42 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "City Diary",
+        "startDate": "2022",
+        "description": "A mobile application that allows users to record audio, pin it to their geolocation and upload it to firebase cloud storage. Audio may be private or public, the latter is accessible to all users.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/cityDiary/p1.png",
+          "images/portfolio/cityDiary/p2.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React Native"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Fullstack Spirits",
+        "startDate": "2021",
+        "description": "E-commerce web application. Visitors can browse and buy with or without an account. Ordinary users can see their order history. Admins are elevated users with authorized actions.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/Fullstack-Spirits/p1.png",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://graceshopper-4-amigos.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,6 +55,10 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
