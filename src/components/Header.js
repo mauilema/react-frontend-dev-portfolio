@@ -6,24 +6,24 @@ import moment from "moment";
 class Header extends Component {
   titles = [];
 
-  constructor() {
-    super();
-    this.state = { checked: false };
-    this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
-  }
+  // constructor() {
+  //   super();
+  //   this.state = { checked: false };
+  //   this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+  // }
 
-  onThemeSwitchChange(checked) {
-    this.setState({ checked });
-    this.setTheme();
-  }
+  // onThemeSwitchChange(checked) {
+  //   this.setState({ checked });
+  //   this.setTheme();
+  // }
 
-  setTheme() {
-    var dataThemeAttribute = "data-theme";
-    var body = document.body;
-    var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
-    body.setAttribute(dataThemeAttribute, newTheme);
-  }
+  // setTheme() {
+  //   var dataThemeAttribute = "data-theme";
+  //   var body = document.body;
+  //   var newTheme =
+  //     body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+  //   body.setAttribute(dataThemeAttribute, newTheme);
+  // }
 
   render() {
     if (this.props.sharedData) {
@@ -45,7 +45,7 @@ class Header extends Component {
           <div className="col-md-12 div-wrapper">
             <div>
               {/* <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span> */}
-              <Switch
+              {/* <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
@@ -84,7 +84,7 @@ class Header extends Component {
                   ></span>
                 }
                 id="icon-switch"
-              />
+              /> */}
               <br/>
               <br/>
               <h1 className="mb-0">
