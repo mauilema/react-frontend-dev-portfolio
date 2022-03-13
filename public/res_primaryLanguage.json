@@ -92,27 +92,51 @@
     "experience": [
       {
         "company": "Fullstack Academy",
-        "title": "Full-stack Software Engineer",
+        "title": "Full-stack Software Engineer Trainee",
         "years": "06.07.2021 - 12.21.2021",
         "mainTech": [
-          "PERN STACK"
+          ""
         ],
         "technologies": [
+          "PERN Stack",
           "React Native",
+          "Sequelize",
+          "Insomnia",
+          "Postico",
+          "Redux",
           "Expo",
-          "Firebase Store DataBase",
-          "Firebase Cloud Storage"
+          "Firebase",
+          "Mocha",
+          "Chai",
+          "Babel",
+          "Webpack",
+          "Git",
+          "GitHub"
         ]
       },
       {
-        "company": "TPV VoiceLog",
+        "company": "BSG TPV VoiceLog",
         "title": "Customer Service Operator",
-        "years": "12.06.2021 - 12.17.2021",
+        "years": "04.01.2019 - 09.01.2021",
         "mainTech": [
           ""
         ],
         "technologies": [
           "Effective Communication",
+          "Multi-tasking",
+          "Creative problem-solving",
+          "Team player"
+        ]
+      },
+      {
+        "company": "Intuitive Solutions Inc",
+        "title": "Customer Service Representative",
+        "years": "04.01.2017 - 03.30.2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "Self-starter",
           "Multi-tasking",
           "Creative problem-solving",
           "Team player"
