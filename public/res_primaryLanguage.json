@@ -91,11 +91,11 @@
     ],
     "experience": [
       {
-        "company": "Software Engineer",
-        "title": "City-Diary",
-        "years": "01.10.2022 - 01.31.2022",
+        "company": "Fullstack Academy",
+        "title": "Full-stack Software Engineer",
+        "years": "06.07.2021 - 12.21.2021",
         "mainTech": [
-          "React Native"
+          "PERN STACK"
         ],
         "technologies": [
           "React Native",
@@ -105,20 +105,17 @@
         ]
       },
       {
-        "company": "Software Engineer",
-        "title": "Fullstack Spirits",
+        "company": "TPV VoiceLog",
+        "title": "Customer Service Operator",
         "years": "12.06.2021 - 12.17.2021",
         "mainTech": [
-          "React"
+          ""
         ],
         "technologies": [
-          "React",
-          "Redux",
-          "Heroku",
-          "JavaScript",
-          "Bootstrap",
-          "Express",
-          "Sequelize"
+          "Effective Communication",
+          "Multi-tasking",
+          "Creative problem-solving",
+          "Team player"
         ]
       }
     ]
