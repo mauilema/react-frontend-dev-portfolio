@@ -11,6 +11,30 @@
     },
     "projects": [
       {
+        "title": "Fullstack Spirits",
+        "startDate": "2021",
+        "description": "An E-commerce web application. Visitors can browse and buy with or without an account. Ordinary users can see their order history. Admins are elevated users with authorized actions.",
+        "images": [
+          "images/portfolio/Fullstack-Spirits/p1.png",
+          "images/portfolio/Fullstack-Spirits/p3.png"
+        ],
+        "url": "https://graceshopper-4-amigos.herokuapp.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
         "title": "City Diary",
         "startDate": "2022",
         "description": "A mobile application that allows users to record audio, pin it to their geolocation and upload it to firebase cloud storage. Audio may be private or public, the latter is accessible to all users.",
@@ -35,30 +59,6 @@
           {
             "class": "devicon-nodejs-plain",
             "name": "Node"
-          }
-        ]
-      },
-      {
-        "title": "Fullstack Spirits",
-        "startDate": "2021",
-        "description": "E-commerce web application. Visitors can browse and buy with or without an account. Ordinary users can see their order history. Admins are elevated users with authorized actions.",
-        "images": [
-          "images/portfolio/Fullstack-Spirits/p1.png",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://graceshopper-4-amigos.herokuapp.com/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
           }
         ]
       },
