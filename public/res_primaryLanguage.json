@@ -11,6 +11,30 @@
     },
     "projects": [
       {
+        "title": "Riddler's Guessing Game",
+        "startDate": "2021",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/riddler-guessing-game/p1.png",
+          "images/portfolio/riddler-guessing-game/p2.png"
+        ],
+        "url": "https://mauilema.github.io/guessing-game/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
         "title": "Fullstack Spirits",
         "startDate": "2021",
         "description": "An E-commerce web application. Visitors can browse and buy with or without an account. Ordinary users can see their order history. Admins are elevated users with authorized actions.",
@@ -19,6 +43,7 @@
           "images/portfolio/Fullstack-Spirits/p3.png"
         ],
         "url": "https://graceshopper-4-amigos.herokuapp.com/",
+        "gitHubUrl": "https://github.com/The-4-Amigos/Graceshopper",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -42,7 +67,7 @@
           "images/portfolio/cityDiary/p1.png",
           "images/portfolio/cityDiary/p2.png"
         ],
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=GZ4RHsHUgW8",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -59,30 +84,6 @@
           {
             "class": "devicon-nodejs-plain",
             "name": "Node"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }
