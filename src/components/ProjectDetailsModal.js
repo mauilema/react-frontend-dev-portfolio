@@ -14,6 +14,7 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
       var gitHubUrl = this.props.data.gitHubUrl;
       var gitHub = "GitHub URL";
+      var privateRepoMsg = "N/A Fullstack Academy Private Repo"
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -113,7 +114,7 @@ class ProjectDetailsModal extends Component {
                     style={{ marginLeft: "10px" }}
                   ></i>
                 </a>
-              ) : null}
+              ) : <h5>{privateRepoMsg}</h5>}
             </h4>
 
           </div>

@@ -68,6 +68,7 @@
           "images/portfolio/cityDiary/p2.png"
         ],
         "url": "https://www.youtube.com/watch?v=GZ4RHsHUgW8",
+        "gitHubUrl": "https://github.com/HCJM/City-DiaryV2",
         "technologies": [
           {
             "class": "devicon-react-plain",
