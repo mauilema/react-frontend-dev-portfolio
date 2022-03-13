@@ -13,7 +13,7 @@
       {
         "title": "Riddler's Guessing Game",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "A number guessing game where a player has 5 attempts to guess a number from 1 to 100. Every guess submitted will unlock a clue for how close or far the guess is from the answer. There is a hint feature that provides 3 additional clues.",
         "images": [
           "images/portfolio/riddler-guessing-game/p1.png",
           "images/portfolio/riddler-guessing-game/p2.png"
