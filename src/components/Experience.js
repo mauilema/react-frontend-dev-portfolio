@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import file from "../../src/JoseLemaResume.pdf"
 
 class Experience extends Component {
   render() {
@@ -69,6 +70,13 @@ class Experience extends Component {
             <h1 className="section-title" style={{ color: "black" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
+                <a href={file} class="navbar-item" target="blank" style={{ marginLeft: "45%", width: "fit-content", textDecoration: "inherit", color: "inherit"}}>
+                Resume
+                  <i
+                      className="fas fa-external-link-alt"
+                      style={{ marginLeft: "10px" }}
+                  ></i>
+                </a>
               </span>
             </h1>
           </div>
