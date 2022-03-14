@@ -91,35 +91,57 @@
     ],
     "experience": [
       {
-        "company": "Ingeniero de Software",
-        "title": "City-Diary",
-        "years": "01.10.2022 - 01.31.2022",
+        "company": "Fullstack Academy",
+        "title": "Aprendiz de Ingeniero de Software",
+        "years": "06.07.2021 - 12.21.2021",
         "mainTech": [
-          "React Native"
+          ""
         ],
         "technologies": [
+          "PERN Stack",
           "React Native",
+          "Sequelize",
+          "Insomnia",
+          "Postico",
+          "Redux",
           "Expo",
-          "Firebase Store DataBase",
-          "Firebase Cloud Storage"
+          "Firebase",
+          "Mocha",
+          "Chai",
+          "Babel",
+          "Webpack",
+          "Git",
+          "GitHub"
         ]
       },
       {
-        "company": "Ingeniero de Software",
-        "title": "Fullstack Spirits",
-        "years": "12.06.2021 - 12.17.2021",
+        "company": "BSG TPV VoiceLog",
+        "title": "Operador de servicio al cliente",
+        "years": "04.01.2019 - 09.01.2021",
         "mainTech": [
-          "React"
+          ""
         ],
         "technologies": [
-          "React",
-          "Redux",
-          "Heroku",
-          "JavaScript",
-          "Bootstrap",
-          "Express",
-          "Sequelize"
+          "Comunicación efectiva",
+          "Multifuncional",
+          "Soluciónes creativas de problemas",
+          "Colaborador de equipo"
+        ]
+      },
+      {
+        "company": "Intuitive Solutions Inc",
+        "title": "Representante de Servicio al Cliente",
+        "years": "04.01.2017 - 03.30.2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "con iniciativa",
+          "Integridad",
+          "Halto desempeño",
+          "Determinación"
         ]
       }
     ]
+
   }
