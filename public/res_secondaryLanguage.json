@@ -11,42 +11,22 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Riddler's Guessing Game",
+        "startDate": "2021",
+        "description": "Un juego de adivinanzas de números en el que un jugador tiene 5 intentos para adivinar un número del 1 al 100. Cada adivinanza enviada desbloqueará una pista sobre qué tan cerca o lejos está la adivinanza de la respuesta. Hay una función de pista que proporciona 3 pistas adicionales.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/riddler-guessing-game/p1.png",
+          "images/portfolio/riddler-guessing-game/p2.png"
         ],
-        "url": "",
+        "url": "https://mauilema.github.io/guessing-game/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "orytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,26 +35,56 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Fullstack Spirits",
+        "startDate": "2021",
+        "description": "Una aplicación web de comercio electrónico. Los visitantes pueden navegar y comprar con o sin cuenta. Los usuarios comunes pueden ver su historial de pedidos. Los administradores son usuarios elevados con acciones autorizadas.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Fullstack-Spirits/p1.png",
+          "images/portfolio/Fullstack-Spirits/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://graceshopper-4-amigos.herokuapp.com/",
+        "gitHubUrl": "https://github.com/The-4-Amigos/Graceshopper",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "City Diary",
+        "startDate": "2022",
+        "description": "Una aplicación móvil que permite a los usuarios grabar audio, anclarlo a su geolocalización y cargarlo en el almacenamiento en la nube de Firebase. El audio puede ser privado o público, este último esta accesible a todos los usuarios.",
+        "images": [
+          "images/portfolio/cityDiary/p1.png",
+          "images/portfolio/cityDiary/p2.png"
+        ],
+        "url": "https://www.youtube.com/watch?v=GZ4RHsHUgW8",
+        "gitHubUrl": "https://github.com/HCJM/City-DiaryV2",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
           }
         ]
       }
