@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
+import file from "../../src/JoseLemaResume.pdf"
 import "bulma/css/bulma.min.css";
 
 class Nav extends Component {
@@ -64,6 +65,10 @@ class Nav extends Component {
 
               <a href="#skills" class="navbar-item">
                 Skills
+              </a>
+
+              <a href={file} class="navbar-item" target="blank">
+                Resume
               </a>
         
               <div class="navbar-item has-dropdown is-hoverable">
