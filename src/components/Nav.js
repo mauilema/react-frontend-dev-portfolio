@@ -59,12 +59,16 @@ class Nav extends Component {
                 About Me
               </a>
 
-              <a href="#resume" class="navbar-item">
+              <a href="#skills" class="navbar-item">
+                Skills
+              </a>
+
+              <a href="#portfolio" class="navbar-item">
                 Projects
               </a>
 
-              <a href="#skills" class="navbar-item">
-                Skills
+              <a href="#resume" class="navbar-item">
+                Experience
               </a>
 
               <a href={file} class="navbar-item" target="blank">
