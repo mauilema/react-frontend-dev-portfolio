@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/mauilema/react-frontend-dev-portfolio.git/static/css/main.cbe875a9.chunk.css",
-    "main.js": "/mauilema/react-frontend-dev-portfolio.git/static/js/main.dafb48ad.chunk.js",
-    "main.js.map": "/mauilema/react-frontend-dev-portfolio.git/static/js/main.dafb48ad.chunk.js.map",
-    "runtime-main.js": "/mauilema/react-frontend-dev-portfolio.git/static/js/runtime-main.0ae42c76.js",
-    "runtime-main.js.map": "/mauilema/react-frontend-dev-portfolio.git/static/js/runtime-main.0ae42c76.js.map",
-    "static/css/2.b8eac109.chunk.css": "/mauilema/react-frontend-dev-portfolio.git/static/css/2.b8eac109.chunk.css",
-    "static/js/2.00c04831.chunk.js": "/mauilema/react-frontend-dev-portfolio.git/static/js/2.00c04831.chunk.js",
-    "static/js/2.00c04831.chunk.js.map": "/mauilema/react-frontend-dev-portfolio.git/static/js/2.00c04831.chunk.js.map",
-    "index.html": "/mauilema/react-frontend-dev-portfolio.git/index.html",
-    "precache-manifest.69e8d18f9d832a337a0f7b02538f283b.js": "/mauilema/react-frontend-dev-portfolio.git/precache-manifest.69e8d18f9d832a337a0f7b02538f283b.js",
-    "service-worker.js": "/mauilema/react-frontend-dev-portfolio.git/service-worker.js",
-    "static/css/2.b8eac109.chunk.css.map": "/mauilema/react-frontend-dev-portfolio.git/static/css/2.b8eac109.chunk.css.map",
-    "static/css/main.cbe875a9.chunk.css.map": "/mauilema/react-frontend-dev-portfolio.git/static/css/main.cbe875a9.chunk.css.map",
-    "static/js/2.00c04831.chunk.js.LICENSE.txt": "/mauilema/react-frontend-dev-portfolio.git/static/js/2.00c04831.chunk.js.LICENSE.txt",
-    "static/media/JoseLemaResume.pdf": "/mauilema/react-frontend-dev-portfolio.git/static/media/JoseLemaResume.2e8cada6.pdf"
+    "main.css": "/react-frontend-dev-portfolio/static/css/main.cbe875a9.chunk.css",
+    "main.js": "/react-frontend-dev-portfolio/static/js/main.1cdb6144.chunk.js",
+    "main.js.map": "/react-frontend-dev-portfolio/static/js/main.1cdb6144.chunk.js.map",
+    "runtime-main.js": "/react-frontend-dev-portfolio/static/js/runtime-main.0af024f6.js",
+    "runtime-main.js.map": "/react-frontend-dev-portfolio/static/js/runtime-main.0af024f6.js.map",
+    "static/css/2.b8eac109.chunk.css": "/react-frontend-dev-portfolio/static/css/2.b8eac109.chunk.css",
+    "static/js/2.00c04831.chunk.js": "/react-frontend-dev-portfolio/static/js/2.00c04831.chunk.js",
+    "static/js/2.00c04831.chunk.js.map": "/react-frontend-dev-portfolio/static/js/2.00c04831.chunk.js.map",
+    "index.html": "/react-frontend-dev-portfolio/index.html",
+    "precache-manifest.f00ccd17f8c697591df7da85a90ec037.js": "/react-frontend-dev-portfolio/precache-manifest.f00ccd17f8c697591df7da85a90ec037.js",
+    "service-worker.js": "/react-frontend-dev-portfolio/service-worker.js",
+    "static/css/2.b8eac109.chunk.css.map": "/react-frontend-dev-portfolio/static/css/2.b8eac109.chunk.css.map",
+    "static/css/main.cbe875a9.chunk.css.map": "/react-frontend-dev-portfolio/static/css/main.cbe875a9.chunk.css.map",
+    "static/js/2.00c04831.chunk.js.LICENSE.txt": "/react-frontend-dev-portfolio/static/js/2.00c04831.chunk.js.LICENSE.txt",
+    "static/media/JoseLemaResume.pdf": "/react-frontend-dev-portfolio/static/media/JoseLemaResume.2e8cada6.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ae42c76.js",
+    "static/js/runtime-main.0af024f6.js",
     "static/css/2.b8eac109.chunk.css",
     "static/js/2.00c04831.chunk.js",
     "static/css/main.cbe875a9.chunk.css",
-    "static/js/main.dafb48ad.chunk.js"
+    "static/js/main.1cdb6144.chunk.js"
   ]
 }
