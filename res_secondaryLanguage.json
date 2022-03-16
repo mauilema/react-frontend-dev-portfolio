@@ -1,52 +1,32 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "¡Hola",
+      "description": "Mi nombre es José Lema. Soy un ingeniero de software full-stack. Soy de ascendencia latinoamericana. Mi lenguaje de codificación favorito es Javascript porque da vida a las páginas de HTML. Disfruto viendo videos en Youtube, desde tutoriales hasta podcasts y transmisiones en vivo, ¡hay tanto contenido valioso para ver! Tengo buena memoria para temas importantes y apoyo la creatividad en el lugar de trabajo.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Acerca de mi",
+        "projects": "Proyectos",
+        "skills":  "Habilidades Tecnicas",
+        "experience": "Experiencia Laboral"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Riddler's Guessing Game",
+        "startDate": "2021",
+        "description": "Un juego de adivinanzas de números en el que un jugador tiene 5 intentos para adivinar un número del 1 al 100. Cada adivinanza enviada desbloqueará una pista sobre qué tan cerca o lejos está la adivinanza de la respuesta. Hay una función de pista que proporciona 3 pistas adicionales.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/riddler-guessing-game/p1.png",
+          "images/portfolio/riddler-guessing-game/p2.png"
         ],
-        "url": "",
+        "url": "https://mauilema.github.io/guessing-game/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,62 +35,113 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Fullstack Spirits",
+        "startDate": "2021",
+        "description": "Una aplicación web de comercio electrónico. Los visitantes pueden navegar y comprar con o sin cuenta. Los usuarios comunes pueden ver su historial de pedidos. Los administradores son usuarios elevados con acciones autorizadas.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Fullstack-Spirits/p1.png",
+          "images/portfolio/Fullstack-Spirits/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://graceshopper-4-amigos.herokuapp.com/",
+        "gitHubUrl": "https://github.com/The-4-Amigos/Graceshopper",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "City Diary",
+        "startDate": "2022",
+        "description": "Una aplicación móvil que permite a los usuarios grabar audio, anclarlo a su geolocalización y cargarlo en el almacenamiento en la nube de Firebase. El audio puede ser privado o público, este último esta accesible a todos los usuarios.",
+        "images": [
+          "images/portfolio/cityDiary/p1.png",
+          "images/portfolio/cityDiary/p2.png"
+        ],
+        "url": "https://www.youtube.com/watch?v=GZ4RHsHUgW8",
+        "gitHubUrl": "https://github.com/HCJM/City-DiaryV2",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Fullstack Academy",
+        "title": "Aprendiz de Ingeniero de Software",
+        "years": "06.07.2021 - 12.21.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          ""
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "PERN Stack",
+          "React Native",
+          "Sequelize",
+          "Insomnia",
+          "Postico",
+          "Redux",
+          "Expo",
+          "Firebase",
+          "Mocha",
+          "Chai",
+          "Babel",
+          "Webpack",
+          "Git",
+          "GitHub"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "BSG TPV VoiceLog",
+        "title": "Operador de servicio al cliente",
+        "years": "04.01.2019 - 09.01.2021",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Comunicación efectiva",
+          "Multifuncional",
+          "Soluciónes creativas de problemas",
+          "Colaborador de equipo"
+        ]
+      },
+      {
+        "company": "Intuitive Solutions Inc",
+        "title": "Representante de Servicio al Cliente",
+        "years": "04.01.2017 - 03.30.2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "con iniciativa",
+          "Integridad",
+          "Halto desempeño",
+          "Determinación"
         ]
       }
     ]
+
   }
